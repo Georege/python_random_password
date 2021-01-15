@@ -91,13 +91,13 @@ if __name__ == "__main__":
     # line 5
     Label(root, text="随机密码的长度是长度：").grid(
         row=5, column=1)
-    info_output = Text(root, width=60, height=1)
+    info_output = Text(root, width=40, height=1)
     info_output.grid(
         row=5, column=2, columnspan=3)
     # line 6
     Label(root, text="密码是：").grid(
         row=6, column=1)
-    miyue_output = Text(root, width=60, height=1)
+    miyue_output = Text(root, width=40, height=1)
     miyue_output.grid(
         row=6, column=2, columnspan=3)
     root.mainloop()
